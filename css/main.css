@@ -1,0 +1,14 @@
+/* Non Media Dependant Body Style */
+
+.nav li{
+	display: inline;
+	margin: 10px;
+}
+
+/* Media Dependant Style */
+
+.column {
+	float:left;
+	width: 50%;
+	background-color: #efefef;
+}
