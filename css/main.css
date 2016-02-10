@@ -1,11 +1,37 @@
 /* Non Media Dependant Body Style */
 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav ul {
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	width: 100%;
+	background-color: lightblue;
+	margin: 0px;
+}
+
 .nav li{
 	display: inline;
-	margin: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.column h1{
+	text-align: center;
+}
+.column ul{
+	list-style-position: inside;
+}
+.column li{
+	padding-left: 20%;
 }
 
 /* Media Dependant Style */
+
+
 
 .column {
 	float:left;
