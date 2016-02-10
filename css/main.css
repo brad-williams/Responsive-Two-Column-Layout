@@ -1,5 +1,9 @@
 /* Non Media Dependant Body Style */
 
+.desktop {
+	display: none;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -31,7 +35,9 @@ body {
 
 /* Media Dependant Style */
 
-
+@media (min-width: 2440px;) {
+	
+}
 
 .column {
 	float:left;
