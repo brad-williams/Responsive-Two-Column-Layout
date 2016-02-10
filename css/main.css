@@ -20,6 +20,10 @@ body {
 	margin-right: 2%;
 }
 
+.column {
+	background-color: #efefef;
+}
+
 .column h1{
 	text-align: center;
 }
@@ -43,9 +47,14 @@ body {
 		display: none;
 	}
 }
-
-.column {
-	float:left;
-	width: 50%;
-	background-color: #efefef;
+@media (min-width: 700px) {
+	.column {
+		float:left;
+		width: 50%;
+	}
+}
+@media (max-width: 700px) {
+	.column {
+		width: 100%;
+	}
 }
